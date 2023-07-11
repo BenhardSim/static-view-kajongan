@@ -40,7 +40,7 @@
 }
 
 .about-page-item{
-    height: 800px;
+    height: 700px;
 }
 
 .carousel-control-next,
@@ -57,7 +57,7 @@
 
 .about-1 h1{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .container-content p{
@@ -78,4 +78,5 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 20px;
 }
