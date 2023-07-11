@@ -43,12 +43,6 @@
     height: 700px;
 }
 
-.carousel-control-next,
-.carousel-control-prev /*, .carousel-indicators */ {
-    filter: invert(100%);
-}
-
-
 .container-content{
     margin: 20px 150px 80px 150px;
     padding: 20px;
@@ -70,8 +64,7 @@
 
 .content-card{
     padding: 0%;
-    width: 100px;   
-    backdrop-filter: ;                
+    width: 100px;                 
 }
 
 .card-container{
@@ -79,4 +72,21 @@
     justify-content: center;
     align-items: center;
     border-radius: 20px;
+}
+
+.perangkat-desa{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../assets/sungai-kajongan.jpg');    
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.perangkat-desa h1{
+    color: white;
+}
+
+.perangkat-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

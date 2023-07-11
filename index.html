@@ -85,8 +85,6 @@
                 aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
                 aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
         </div>
 
         <div class="carousel-inner">
@@ -190,10 +188,57 @@
 
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
             data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span style="background-color: gray; border-radius: 40px;" class="carousel-control-prev-icon"
+                aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span style="background-color: gray; border-radius: 40px;" class="carousel-control-next-icon"
+                aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div id="carouselExampleIndicators-2" class="carousel slide perangkat-desa" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators-2" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators-2" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+        </div>
+
+        <div class="carousel-inner">
+
+            <div class="carousel-item active about-page-item">
+                <div class="col-lg-12 about-1">
+                    <h1>Perangkat Desa</h1>
+                </div>
+                <div class="container-content">
+                    <div class="row">
+                        <div class="col-lg-12 perangkat-content">
+                            <img src="./assets/perangkat1.jpg" alt="" width="650px" style="border-radius: 20px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item about-page-item">
+                <div class="col-lg-12 about-1">
+                    <h1>Detail Perangkat Desa</h1>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators-2"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators-2"
             data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
